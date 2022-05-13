@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RentalCars.Domain\RentalCars.Domain.csproj" />
+    <ProjectReference Include="..\RentalCars.Infrastructure.Data.Singleton\RentalCars.Infrastructure.Data.Singleton.csproj" />
+    <ProjectReference Include="..\RentalCars.Infrastructure\RentalCars.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

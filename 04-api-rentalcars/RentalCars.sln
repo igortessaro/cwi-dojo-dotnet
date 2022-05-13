@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCars.Application", "RentalCars.Application\RentalCars.Application.csproj", "{8E3B1B84-E6B5-4384-8FAD-469CBEF7D4BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCars.Domain", "RentalCars.Domain\RentalCars.Domain.csproj", "{45D926DF-65FB-498D-A9C1-CDB68CB981A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCars.Infrastructure", "RentalCars.Infrastructure\RentalCars.Infrastructure.csproj", "{CA617256-2219-4CF2-ADC5-E512EE62D264}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RentalCars.CrossCutting", "RentalCars.CrossCutting\RentalCars.CrossCutting.csproj", "{C3073EC3-C80E-4598-BB0B-700132C9B73E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{172984F5-0432-46D2-8448-A8E7BFCCD777}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalCars.Infrastructure.Data.Singleton", "RentalCars.Infrastructure.Data.Singleton\RentalCars.Infrastructure.Data.Singleton.csproj", "{5BD1246F-0EEC-4087-8216-3D18C18A3F39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E3B1B84-E6B5-4384-8FAD-469CBEF7D4BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3B1B84-E6B5-4384-8FAD-469CBEF7D4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3B1B84-E6B5-4384-8FAD-469CBEF7D4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3B1B84-E6B5-4384-8FAD-469CBEF7D4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D926DF-65FB-498D-A9C1-CDB68CB981A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D926DF-65FB-498D-A9C1-CDB68CB981A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D926DF-65FB-498D-A9C1-CDB68CB981A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D926DF-65FB-498D-A9C1-CDB68CB981A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA617256-2219-4CF2-ADC5-E512EE62D264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA617256-2219-4CF2-ADC5-E512EE62D264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA617256-2219-4CF2-ADC5-E512EE62D264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA617256-2219-4CF2-ADC5-E512EE62D264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3073EC3-C80E-4598-BB0B-700132C9B73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3073EC3-C80E-4598-BB0B-700132C9B73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3073EC3-C80E-4598-BB0B-700132C9B73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3073EC3-C80E-4598-BB0B-700132C9B73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD1246F-0EEC-4087-8216-3D18C18A3F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD1246F-0EEC-4087-8216-3D18C18A3F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD1246F-0EEC-4087-8216-3D18C18A3F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD1246F-0EEC-4087-8216-3D18C18A3F39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62D054AE-94DC-4A44-B755-C107DB1BD6EC}
+	EndGlobalSection
+EndGlobal
